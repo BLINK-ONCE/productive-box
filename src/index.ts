@@ -60,8 +60,8 @@ interface IRepo {
        * voting and counting
        */
       if (hour >= 6 && hour < 12) morning++;
-      if (hour >= 12 && hour < 18) daytime++;
-      if (hour >= 18 && hour < 24) evening++;
+      if (hour >= 12 && hour < 20) daytime++;
+      if (hour >= 20 && hour < 24) evening++;
       if (hour >= 0 && hour < 6) night++;
     });
   });
